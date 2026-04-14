@@ -1,0 +1,103 @@
+
+/**
+ * @name OldCord
+ * @description Makes Discord look like an early 2000s / old forum chat client
+ * @version 1.0
+ */
+
+/* =========================
+   BASIC OLD UI RESET
+========================= */
+* {
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  font-family: Tahoma, Arial, sans-serif !important;
+}
+
+/* =========================
+   BACKGROUND (OLD GREY)
+========================= */
+.theme-dark {
+  background: #c0c0c0 !important;
+}
+
+/* =========================
+   PANELS = WINDOWS 2000 STYLE
+========================= */
+.guilds {
+  background: #a9a9a9 !important;
+  border-right: 2px solid #666 !important;
+}
+
+.sidebar {
+  background: #bdbdbd !important;
+  border-right: 2px solid #666 !important;
+}
+
+.chatContent,
+.contentRegion {
+  background: #d4d0c8 !important;
+}
+
+/* =========================
+   TOP BAR (WIN XP STYLE)
+========================= */
+.container__2637a {
+  background: #808080 !important;
+  border-bottom: 2px solid #444 !important;
+  color: white !important;
+}
+
+/* =========================
+   MESSAGES (BOXED LOOK)
+========================= */
+.messageContent {
+  background: #ffffff !important;
+  border: 1px solid #999 !important;
+  padding: 4px !important;
+  margin: 2px 0 !important;
+}
+
+/* =========================
+   INPUT BOX
+========================= */
+.scrollableContainer {
+  background: #ffffff !important;
+  border: 2px inset #aaa !important;
+}
+
+/* =========================
+   BUTTONS (OLD SCHOOL 3D)
+========================= */
+button {
+  background: #dcdcdc !important;
+  border: 2px outset #ffffff !important;
+  color: black !important;
+}
+
+button:active {
+  border: 2px inset #ffffff !important;
+}
+
+/* =========================
+   TEXT
+========================= */
+body, span, div {
+  color: #000 !important;
+  font-size: 12px !important;
+}
+
+/* =========================
+   LINKS (OLD BLUE WEB STYLE)
+========================= */
+a {
+  color: #0000ee !important;
+  text-decoration: underline !important;
+}
+
+/* =========================
+   HOVER (VERY SIMPLE)
+========================= */
+.containerDefault__23a29:hover {
+  background: #e0e0e0 !important;
+}
